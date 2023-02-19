@@ -171,10 +171,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.rpi
 
-# Kernel
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)-kernel/Image:$(PRODUCT_OUT)/kernel
-
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1-service

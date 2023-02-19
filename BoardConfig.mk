@@ -45,6 +45,10 @@ BOARD_MESA3D_GALLIUM_DRIVERS := vc4 v3d
 BOARD_MESA3D_VULKAN_DRIVERS := broadcom
 
 # Kernel
+BOARD_KERNEL_IMAGE_NAME := Image
+TARGET_KERNEL_CONFIG := lineageos_rpi4_defconfig
+TARGET_KERNEL_NO_GCC := true
+TARGET_KERNEL_SOURCE := kernel/brcm/rpi4
 BOARD_CUSTOM_BOOTIMG := true
 BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := console=ttyS0,115200 no_console_suspend root=/dev/ram0 rootwait androidboot.hardware=rpi4
