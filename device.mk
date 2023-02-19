@@ -14,7 +14,6 @@ $(call inherit-product, vendor/brcm/rpi4/rpi4-vendor.mk)
 
 PRODUCT_AAPT_CONFIG := normal mdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
-PRODUCT_CHARACTERISTICS := tablet,nosdcard
 
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 33
