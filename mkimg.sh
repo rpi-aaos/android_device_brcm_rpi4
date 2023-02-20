@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-VERSION=RaspberryVanillaAOSP13
+VERSION=lineage-20.0
 DATE=$(date +%Y%m%d)
 IMGNAME=${VERSION}-${DATE}-rpi4.img
 IMGSIZE=7
