@@ -28,12 +28,12 @@ echo n
 echo p
 echo 2
 echo
-echo +2048M
+echo +4096M
 echo n
 echo p
 echo 3
 echo
-echo +256M
+echo +512M
 echo n
 echo p
 echo
