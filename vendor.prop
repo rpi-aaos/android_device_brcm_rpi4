@@ -32,8 +32,8 @@ persist.bluetooth.a2dp_aac.vbr_supported=true
 ro.rfkilldisabled=1
 
 # Camera
-media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
-ro.hardware.camera=libcamera
+#media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
+#ro.hardware.camera=libcamera
 
 # Display
 debug.drm.mode.force=1920x1080

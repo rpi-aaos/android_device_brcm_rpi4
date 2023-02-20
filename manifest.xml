@@ -26,6 +26,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!--
     <hal format="hidl">
         <name>android.hardware.camera.provider</name>
         <transport>hwbinder</transport>
@@ -36,6 +37,7 @@
             <instance>legacy/0</instance>
         </interface>
     </hal>
+    -->
     <hal format="hidl">
         <name>android.hardware.graphics.composer</name>
         <transport>hwbinder</transport>

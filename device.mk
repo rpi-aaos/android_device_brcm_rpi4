@@ -91,6 +91,7 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration_7_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration_7_0.xml
 
 # Camera
+ifeq (0, 1)
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-external-service
 
@@ -119,6 +120,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/camera/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
+endif
 
 # Debugfs
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := false
